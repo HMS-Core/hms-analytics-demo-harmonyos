@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "AnalyticsKitDemo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "true_button",
+      "value": "True"
+    },
+    {
+      "name": "false_button",
+      "value": "False"
+    },
+    {
+      "name": "setting_button",
+      "value": "Settings"
+    },
+    {
+      "name": "post_score_button",
+      "value": "Post Score"
+    },
+    {
+      "name": "next_button",
+      "value": "Next"
+    },
+    {
+      "name": "favoriate_sport",
+      "value": "Favoriate Sport:"
+    },
+    {
+      "name": "input_hint",
+      "value": "Input favoriate sport"
+    },
+    {
+      "name": "save_setting_button",
+      "value": "Save"
+    },
+    {
+      "name": "q1",
+      "value": "The largest planet in the solar system is Jupiter"
+    },
+    {
+      "name": "q2",
+      "value": "The first Olympic Games were held in Athens, Greece"
+    },
+    {
+      "name": "q3",
+      "value": "The violin has 6 strings"
+    },
+    {
+      "name": "q4",
+      "value": "Flying bats belong to birds"
+    },
+    {
+      "name": "q5",
+      "value": "Sound spreads faster in the water than in the air"
+    }
+  ]
+}

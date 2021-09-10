@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:question_text_view"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="12vp"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="vertical_center|horizontal_center"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:true_button"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:end_margin="1vp"
+            ohos:start_padding="15vp"
+            ohos:end_padding="15vp"
+            ohos:top_padding="5vp"
+            ohos:bottom_padding="5vp"
+            ohos:text_size="$ohos:float:id_text_size_body2"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="$string:true_button"/>
+
+        <Button
+            ohos:id="$+id:false_button"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:start_margin="1vp"
+            ohos:start_padding="15vp"
+            ohos:end_padding="15vp"
+            ohos:top_padding="5vp"
+            ohos:bottom_padding="5vp"
+            ohos:text_size="$ohos:float:id_text_size_body2"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="$string:false_button"/>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:setting_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="bottom|start"
+        ohos:start_padding="15vp"
+        ohos:end_padding="15vp"
+        ohos:top_padding="5vp"
+        ohos:bottom_padding="5vp"
+        ohos:text_size="$ohos:float:id_text_size_body2"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="$string:setting_button"/>
+
+    <Button
+        ohos:id="$+id:post_score_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="bottom|center"
+        ohos:start_padding="15vp"
+        ohos:end_padding="15vp"
+        ohos:top_padding="5vp"
+        ohos:bottom_padding="5vp"
+        ohos:text_size="$ohos:float:id_text_size_body2"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="$string:post_score_button"/>
+
+    <Button
+        ohos:id="$+id:next_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="bottom|end"
+        ohos:start_padding="15vp"
+        ohos:end_padding="15vp"
+        ohos:top_padding="5vp"
+        ohos:bottom_padding="5vp"
+        ohos:text_size="$ohos:float:id_text_size_body2"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="$string:next_button"/>
+
+</StackLayout>
