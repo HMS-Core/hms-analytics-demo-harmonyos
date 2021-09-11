@@ -14,15 +14,15 @@
 
 ## Introduction
 AnalyticsKitDemo provides an example of integrating HUAWEI Analytics Kit with an `Hap`. It illustrates how to collect predefined events and custom events to improve user engagement and user preference.
-[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149).
+[Read more about Analytics Kit](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 ## Getting Started
 
 For more development guidance, please refer to the links below:
 
-[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
-[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/overview-0000001077819400-V5).
+[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/overview-0000001077819400).
 
 In this example, we demonstrate how to use the analytics SDK for HarmonyOS by using the Gradle build system.
 
@@ -32,7 +32,7 @@ In HUAWEI DevEco Studio, click Open Project, and select AnalyticsKitDemo.
 
 You can use the gradlew build command to build the project directly.
 
-You should create an `Hap` in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813).
+You should create an `Hap` in AppGallery Connect, and obtain the `agconnect-services.json` file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813).
 
 
 ## Installation
@@ -56,15 +56,15 @@ Software requirements:
 ## Result
 After running the Hap you should see a screen like this:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-harmonyos/blob/master/images/screen_0.png" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
-Click True or False to answer the question; Click Next to show the next question; Click Post Score, log the score user got. All the information will be uploaded to the Hianalytics Console, and you can see these information in real time using Debug View.
+Click True or False to answer the question; Click Next to show the next question; Click Post Score, log the score user got. All the information will be uploaded to the Analytics Kit Console, and you can see these information in real time using Debug View.
 
 Click button Settings:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-harmonyos/blob/master/images/screen_1.png" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
 
-When you click Settings, you will be asked for your favorite sport. Your choice will be logged by Hianalytics as a user attribute.
+When you click Settings, you will be asked for your favorite sport. Your choice will be logged by Analytics Kit as a user attribute.
 
 ##  License
 AnalyticsKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
