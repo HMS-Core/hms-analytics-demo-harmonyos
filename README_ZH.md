@@ -1,5 +1,6 @@
-# 华为分析服务SDK HarmonyOS版本示例代码
+# 华为分析服务HarmonyOS版本示例代码
 
+中文 | [English](README.md)
 
 ## 目录
 
@@ -56,13 +57,13 @@ AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析�
 ## 操作结果
 运行该app后，您将会看到如下页面：
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-harmonyos/blob/master/images/screen_0.png" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
 点击“True”或“False” 按钮进行答题；点击“Next” 按钮进入下一道题；点击“Post Score”按钮记录用户获得的分数。所有信息将被上传到Hianalytics控制台，您可以使用Debug View实时查看这些信息。
 
 点击Settings按钮:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-harmonyos/blob/master/images/screen_1.png" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
 
 当点击Settings按钮，设置您最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
 
