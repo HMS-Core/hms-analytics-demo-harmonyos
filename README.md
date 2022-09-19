@@ -49,7 +49,7 @@ Hardware requirements:
 2. A Huawei phone, which is used to debug the developed `Hap`
 
 Software requirements:
-1. HUAWEI Analytics Kit 6.2.0
+1. HUAWEI Analytics Kit 6.3.2
 2. HarmonyOS SDK applicable to devices using HarmonyOS 2.0.0 (API level 4) and later versions
 3. HUAWEI DevEco Studio
 4. JDK version: 1.8 or later
