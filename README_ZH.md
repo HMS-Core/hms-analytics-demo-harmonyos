@@ -49,7 +49,7 @@ AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析�
 2. 华为手机，用于应用调试
 
 软件要求：
-1. 华为分析服务6.2.0
+1. 华为分析服务6.3.2
 2. 适配HarmonyOS 2.0.0（API Level 4）及以上版本的设备
 3. HUAWEI DevEco Studio
 4. JDK 1.8及以上
