@@ -15,15 +15,15 @@
 
 ## 简介
 AnalyticsKitDemo提供了华为分析服务（HUAWEI Analytics Kit）与`Hap`集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
-[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 ## 快速入门
 
 更多开发指导，请参考以下链接文档：
 
-[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5)。
+[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149)。
 
-[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/overview-0000001077819400-V5)。
+[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/overview-0000001077819400)。
 
 AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析服务SDK。
 
@@ -33,7 +33,7 @@ AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析�
 
 您可以直接运行gradlew build命令构建工程。
 
-您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 
 ## 安装
