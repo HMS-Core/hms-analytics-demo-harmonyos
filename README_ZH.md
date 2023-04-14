@@ -42,6 +42,7 @@ AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析�
 ## 配置
 1. 在AppGallery Connect中创建应用，并获取项目配置文件agconnect-services.json。在HUAWEI DevEco Studio中，切换到Project视图，将agconnect-services.json文件移动到`entry`的根目录下。
 2. 修改`entry`的config.json文件中的`bundleName`为上一步申请的`Hap`包名。
+3. 修改`entry`的config.json文件中的`uri`中*com.example.myapplication*的为上一步申请的`Hap`包名。
 
 ## 环境要求
 硬件要求：
