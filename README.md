@@ -41,7 +41,7 @@ Use HUAWEI DevEco Studio to open the decompressed project.
 
 ## Configuration
 1. Create an Hap in AppGallery Connect and obtain the project configuration file agconnect-services.json. In HUAWEI DevEco Studio, switch to the Project view and move the agconnect-services.json file to the root directory of the `entry`.
-2. Change the value of `bundleName` in the config.json file of the `entry` to the name of the `Hap` package applied for in the preceding step.
+2. Open the config.json file in the entry directory of the sample project, and change the value of bundleName to your app package name. In the abilities element, declare the AppGallery Connect provider and replace com.example.myapplication with your app package name.
 
 ## Environment requirements
 Hardware requirements:
